@@ -133,40 +133,4 @@ python3 bot.py
 * [![LazyPrincess-Devs](https://img.shields.io/static/v1?label=LazyPrincess&message=devs&color=critical)](https://telegram.dog/LazyDeveloper)
 
 ## Thanks to 
- - Thank you [LazyDeveloper](https://github.com/LazyDeveloperr) for adding amazing `url uploadig feature`, `online file streaming feature`, `file renaming feature` and keeping this `super premium repo` for `free` ❤ . Great Thanks to [LazyDeveloper](https://github.com/LazyDeveloperr) for helping us in this journey ❤
- - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
- - Thanks To Mahesh For His Awesome [Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot)
- - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)
- - Thanks To Gangster Baby Repo for rename feature.
- - Thanks to Adarsh for file-to-link repo.
- - Thanks to TG@SiliconOfficial for sharing me Cute_Repo to improve LazyPrincess.
- - Thanks To All Everyone In This Journey
-
-### Note
-
-[Join Main Channel](https://telegram.dog/LazyDeveloper): LazyDeveloper 🎁
-
-
-### 🔗 important_Links
-- [🤩 Create Auto Filter BOT](https://www.youtube.com/playlist?list=PLZHPDcp3Vkih9GDM7BUJ1UF988n23Ua__)
-- [۞ Repo Editing Tutorials](https://www.youtube.com/playlist?list=PLZHPDcp3Vkiid03NJtFpi8gIov-QJMolK)
-- [🤩 Error Handling Videos](https://www.youtube.com/playlist?list=PLZHPDcp3VkigMWoTjujScuhFLCl1jl-ah)
-- [۞ Create FILE TO LINK BOT](https://www.youtube.com/watch?v=h3Uvr15ZPnc)
-- [🤩 Create Movie Request BOT](https://www.youtube.com/watch?v=mIEv7MjLj2U&t=38s)
-- [❣️ Join Youtube](https://www.youtube.com/@LazyDeveloperr)
-
-
-#### 🧡 Respecting... 🧡
-- Sir [🔥 LazyDeveloperr](https://github.com/LazyDeveloperr) 
-
-### 🤩 INSPIRATION
-<a href="https://telegram.dog/LazyPrincessX_BOT">
-   <p>❣️ LazyPrincess 🔥</p>
-</a>
-
-
-## Disclaimer
-[![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/LazyDeveloperr/LazyPrincess/blob/master/LICENSE)
-Selling The Codes To Other People For Money Is *Strictly Prohibited*.
+ - Thank you [LazyDeveloper](https://github.com/LazyDeveloperr) for adding amazing `url uploadig feature`, `online file streaming feature`, `file renaming feature` and keeping this `super premium repo` for `free` ❤ . Great Thanks to 
