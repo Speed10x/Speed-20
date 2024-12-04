@@ -130,6 +130,9 @@ async def start(client, message):
         [
             InlineKeyboardButton('⪦ 𝕄𝕆𝕍𝕀𝔼 ℂℍ𝔸ℕℕ𝔼𝕃 ⪧', url='https://t.me/RexieCatX_Bott')
         ],
+	  [
+            InlineKeyboardButton('♻️ SYSTEM STATUS ♻️', url='https://stats.uptimerobot.com/h2YfeV6o1r')
+        ],
         [
             InlineKeyboardButton('💸 E𝐚𝐫𝐧 M𝐨𝐧𝐞𝐲 💸', callback_data="shortlink_info")
         ],[
