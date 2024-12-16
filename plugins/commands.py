@@ -25,6 +25,7 @@ BATCH_FILES = {}
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
+	await message.react(emoji="❤️")
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
@@ -78,6 +79,9 @@ async def start(client, message):
                 )
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await message.reply_sticker("CAACAgQAAxkBAAIESGdckMdJQ4Ua86NE0Wm5WjqAwe9qAAJuDwAC4eqxUNoxB5joJxGiHgQ") 
+        await asyncio.sleep(1)
+        await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -85,6 +89,7 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         return
+
     if AUTH_CHANNEL and not await is_subscribed(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL), creates_join_request=True)
@@ -146,13 +151,16 @@ async def start(client, message):
             ]
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await message.reply_sticker("CAACAgQAAxkBAAIESGdckMdJQ4Ua86NE0Wm5WjqAwe9qAAJuDwAC4eqxUNoxB5joJxGiHgQ") 
+        await asyncio.sleep(1)
+        await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        return
+        return	    
     data = message.command[1]
     try:
         pre, file_id = data.split('_', 1)
