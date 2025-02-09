@@ -2411,10 +2411,11 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
+	    m=await message.reply_text(f"🔎")
             requested_movie = search.strip()
             user_id = message.from_user.id
             search = search.lower()
-            find = search.split(" ")
+            find = search.split("ᴡᴀɪᴛ ʙʀᴏ..")
             search = ""
             removes = ["in","upload", "series", "full", "horror", "thriller", "mystery", "print", "file"]
             for x in find:
