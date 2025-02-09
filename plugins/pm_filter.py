@@ -2411,7 +2411,7 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            requested_movie = search.strip()
+            m=await message.reply_text(f"🔎")
             user_id = message.from_user.id
             search = search.lower()
             find = search.split("ᴡᴀɪᴛ ʙʀᴏ..")
@@ -2463,6 +2463,19 @@ async def auto_filter(client, msg, spoll=False):
         settings = await get_settings(msg.message.chat.id)
         message = msg.message.reply_to_message  # msg will be callback query
         search, files, offset, total_results = spoll
+	m=await message.reply_text(f"🔎")
+        settings = await get_settings(message.chat.id)
+        await msg.message.delete()
+    # if 'is_shortlink' in settings.keys():
+    #     ENABLE_SHORTLINK = settings['is_shortlink']
+    # else:
+    #     await save_group_settings(message.chat.id, 'is_shortlink', False)
+    #     ENABLE_SHORTLINK = False
+    # if 'is_tutorial' in settings.keys():
+    #     ENABLE_TUTORIAL = settings['is_tutorial']
+    # else:
+    #     await save_group_settings(message.chat.id, 'is_tutorial', False)
+    #     ENABLE_TUTORIAL = False
     pre = 'filep' if settings['file_secure'] else 'file'
     key = f"{message.chat.id}-{message.id}"
     FRESH[key] = search
@@ -2655,7 +2668,7 @@ async def auto_filter(client, msg, spoll=False):
     #waiting user to complete imdb process @LazyDeveloperr
     user = message.from_user
     full_name = user.first_name + " " + user.last_name if user.last_name else user.first_name
-    waiting_message = await message.reply_text(f"Setting up your request {full_name}...")
+    waiting_message = await message.reply_text(f"Setting up your request🔎 {full_name}...")
     await asyncio.sleep(1)
     await waiting_message.delete()
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
