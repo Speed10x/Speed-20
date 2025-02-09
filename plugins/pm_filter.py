@@ -2411,8 +2411,8 @@ async def auto_filter(client, msg, spoll=False):
             return
         if len(message.text) < 100:
             search = message.text
-            m=await message.reply_text(f"🔎")
-	    await asyncio.sleep(4)
+            m=await message.reply_text(f"ʜᴇʟʟᴏ ʙᴀʙʏ, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙᴀʙʏ . . .")
+	    await asyncio.sleep(0.5)
             await m.delete()
             user_id = message.from_user.id
             search = search.lower()
