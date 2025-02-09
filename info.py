@@ -123,12 +123,8 @@ if 'DYNO' in environ:
     APP_NAME = str(getenv('APP_NAME'))
 
 else:
-    ON_HEROKU = False
-HAS_SSL=bool(getenv('HAS_SSL',True))
-if HAS_SSL:
-    URL = "https://{}/".format(FQDN)
-else:
-    URL = "http://{}/".format(FQDN)
+ ON_HEROKU = False
+URL = environ.get("URL", "https://married-marena-aerofilms-8547b846.koyeb.app/")
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
 OWNER_USERNAME = "maximize0"
 
