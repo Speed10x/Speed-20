@@ -64,7 +64,7 @@ python-telegram-bot==12.8
 doodstream
 unshortenit
 python-decouple
-chardet
+ytthumb
 YoutubeTags
 beautifulsoup4
 motor
@@ -96,8 +96,7 @@ youtube-search
 youtube-search-python
 spotdl
 Pillow
-html
-markupsafe
+wget
 discord
 moviepy==1.0.3
 shazamio
