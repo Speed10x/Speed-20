@@ -2659,7 +2659,7 @@ async def auto_filter(client, msg, spoll=False):
     await asyncio.sleep(1)
     await waiting_message.delete()
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
-    TEMPLATE = script.IMDB_TEMPLATE_TXT
+    TEMPLATE = settings['template']
     # waiting overs here @LazyDeveloperr
 
     if imdb:
