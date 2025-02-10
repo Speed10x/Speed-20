@@ -1,5 +1,6 @@
 import re
 from os import getenv, environ
+from Script import script
 import logging
 
 logging.basicConfig(
