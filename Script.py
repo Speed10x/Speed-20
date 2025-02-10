@@ -115,6 +115,21 @@ Here is the help for my COMMANDS."""
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝒗10.0[𝑹𝑬𝑽𝑰𝑺𝑬𝑫]
 """
 
+    IMDB_TEMPLATE_TXT = """
+<b>Query: {query}
+IMDb Data: N ϟ C K࿐
+
+<b>🏷 Title</b>: <a href={url}>{title}</a>
+🎭 Genres: {genres}
+📆 Year: <a href={url}/releaseinfo>{year}</a>
+🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
+📀 RunTime: {runtime} Minutes
+
+
+⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
+
+Requested by : {message.from_user.mention}</b>"""
+    
     SOURCE_TXT = """<b>NOTE:</b>
 - 🎉Lᴀᴢʏ Pʀɪɴᴄᴇss ɪs ᴀɴ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
 
